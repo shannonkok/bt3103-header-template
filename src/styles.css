@@ -1,0 +1,93 @@
+.my_image {
+  background: URL("http://www.nus.edu.sg/identity/images/identity/logo/fullcolorlogo.jpg");
+  height: 120px;
+  background-size: 250px 100%;
+  background-repeat: no-repeat;
+  background-position: bottom-left;
+}
+
+.my_image name {
+  position: relative;
+  padding-top: 150px;
+  padding-right: 200px;
+  font-size: 60px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+.selfbutton {
+  font-size: 10px;
+}
+
+header {
+  background-color: #ef7c00;
+  text-align: right;
+  font-size: 100%;
+  padding: 0.5px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar-inverse {
+  color: #413d3d;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #ef7c00;
+  border: 1px solid #000000;
+  border-radius: 0.6em;
+  color: #000000;
+  cursor: pointer;
+  flex-direction: row;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.btn:hover,
+.btn:focus {
+  color: rgb(0, 0, 0);
+  outline: 0;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #ffffff inset;
+}
+
+.h1-header {
+  font-size: 30px;
+  font-family: Impact, Charcoal, sans-serif;
+  padding-left: 5px;
+}
+
+.desc {
+  font-size: 18px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding-left: 5px;
+  width: 70%;
+}
+
+.login {
+  font-size: 30px;
+  font-family: Impact, Charcoal, sans-serif;
+  padding-left: 5px;
+  width: 30%;
+}

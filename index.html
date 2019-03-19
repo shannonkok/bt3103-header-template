@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page_NUS Modules Statistics</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  </head>
+
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">NUS Module Statistics</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Modules</a></li>
+			<li><a href="#">Top Rated Electives</a></li>
+	    <li><a href="#">Minors</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+<header>
+	<div class="my_image">
+		<name> NUS Module Statistics <name/>
+	</div>
+</header>
+</nav>
+
+  <body>
+    <div id="app">
+      <h1 class='h1-header'>About us</h1>
+      <p class='desc'> NUS Module Statistics is a platform that aims to aid students’ decision-making process when faced with the dilemma of
+	choosing between modules. It aims to do so with features designed to provide a seamless experience through
+	this process of module planning for minors and general electives, coupled with statistical insights on modules based on past data. Additionally, students are able to filter by years and lecturers to take the analysis one step further. </p>
+	    <p class='desc'> </p>
+      <h1 class='login'>Login</h1>
+      <input @keyup.enter="addTodo" maxlength="8" placeholder="User ID e.g. e0001760" style="height:30px;font-size:10pt;">
+			<br>
+      <input @keyup.enter="addTodo" placeholder="Password" style="height:30px;font-size:10pt;">
+      <button class="btn first">Log In</button>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
