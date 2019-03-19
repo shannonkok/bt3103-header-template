@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.js"],"names":["document","getElementById","innerHTML"],"mappings":";;;AAEA,aAFA,QAAA,gBAEAA,SAASC,eAAe,OAAOC,UAA/B","file":"src.451a1364.js","sourceRoot":"..","sourcesContent":["import \"./styles.css\";\n\ndocument.getElementById(\"app\").innerHTML = `\n\n<div>\n  \n</div>\n`;\n"]}
