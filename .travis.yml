@@ -16,8 +16,7 @@ install:
  - npm install -g yarn
 
 script:
- - npm run-script test
-  - npm run-script build
+ - npm run-script build
 deploy:
  provider: pages
  skip_cleanup: true
